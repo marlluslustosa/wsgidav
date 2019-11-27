@@ -15,7 +15,7 @@ FROM alpine:latest
 
 EXPOSE 8080
 
-#dependencies. 
+#dependencies
 RUN apk --no-cache add py-lxml py-pip
 
 RUN pip install wsgidav cheroot lxml
