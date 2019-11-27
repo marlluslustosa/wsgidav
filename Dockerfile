@@ -13,8 +13,6 @@
 # NOTE 2019-11-27: smallest image generated at the end
 FROM alpine:latest
 
-EXPOSE 8080
-
 #dependencies
 RUN apk --no-cache add py-lxml py-pip
 
